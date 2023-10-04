@@ -1,0 +1,37 @@
+= -> recebe
+var = variavel
+n1, n2, n3 = identificadores
+num = valores
+
+var n1 = 5 / s1 = "javaScript"
+var n2 = 8.5 / s2 == 'Curso em Vídeo'
+var n3 = 15 / s3 = `Guilherme`
+
+Identificadores:
+- Podem começar com letra, $ ou _
+- não podem começar com números
+- é possivel usar letras ou números
+- é possivel usar acentos e símbolos
+- não podem conter espaços
+- não podem ser palavras reservadas
+
+Dicas:
+- Maiúsculas e minúsculas fazem diferença
+- Tentar escolher nomes coerentes para as variáveis. (variáveis servem para guardar dados)
+
+Data Types:
+
+/typeof/
+
+- number:
+    infinity
+    NaN
+
+- string:
+- boolean:
+- null:
+- undefined:
+- object:
+    Array
+- function:    
+

@@ -1,0 +1,7 @@
+'Eu estou aprendendo s' //não faz interpolação
+'Eu estou aprendendo' + s //usa concatenação
+'Eu estou aprendendos ${s}' //usa template string
+
+s.length    // mostra quantos caracteres a string tem
+s.toUpperCase() //joga tudo para 'Maiúsculas'
+s.toLowerCase() //joga tudo para 'minúsculas'
