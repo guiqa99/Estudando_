@@ -6,12 +6,16 @@
 # for i in range(0, len(Palestras)):
 #     print('Palestras de :', Palestras[i])
 
-lista = list(range(6))
-comprimento = 6
+# lista = list(range(6))
+# comprimento = 6
 
-while len(lista) == comprimento:
-    print(lista)
-    lista.append('item')
-else:
-    print(f'O comprimento da Lista é {len(lista)} e ultrapassou {comprimento}!')
-    print(lista)
+# while len(lista) == comprimento:
+#     print(lista)
+#     lista.append('item')
+# else:
+#     print(f'O comprimento da Lista é {len(lista)} e ultrapassou {comprimento}!')
+#     print(lista)
+
+a = [1,2,3]
+b = a
+print(a is b, a == b)
