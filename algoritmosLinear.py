@@ -26,15 +26,20 @@
 
 #BUSCA LINEAR
 numeros = [10, 12, 16, 18, 22]
-valorBuscado = [9]
+valorBuscado = int(input('Qual valor desejado? '))
 
-def buscaLinear():
+def busca():
     for numero in numeros:
         if numero == valorBuscado:
-            return True
-        else:
-            if numero > valorBuscado:
-                return False
+            return True, f'O valor {valorBuscado} foi encontrado!'
+        elif numero > valorBuscado:
+            return False, f'O valor {valorBuscado} não foi encontrado!'
+
+    return False, f'O valor {valorBuscado} não foi encontrado!'
+
+encontrado, mensagem = busca()
+print(mensagem)
+
 
 
     
