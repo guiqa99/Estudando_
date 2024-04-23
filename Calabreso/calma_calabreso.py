@@ -10,7 +10,7 @@
 #     return f'Calma {palavra_nova}'
   
 # msg = calabreso()
-# print(msg)
+# print(msg) a
 
 def calabreso(palavra):
     if palavra[-1] == 'a':
