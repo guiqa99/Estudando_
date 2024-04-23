@@ -1,9 +1,9 @@
-from tenant_connection.api_connection import *
+'''from tenant_connection.api_connection import *
 from ..TOKEN.token import getJWT
 from ..CONFIGS.configs import api_params
 from ..USUARIO_HMC.autenticaUsuario import pacienteAutenticado
 import requests
-from flask import request
+from flask import request'''
 
 token = getJWT(api_params.get('exames')['scope'])['access_token']
 
